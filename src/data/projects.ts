@@ -5,7 +5,7 @@ export const projects: Project[] = [
     id: 1,
     title: "egTeam an ed-tech platform",
     description:
-      "An easy-to-use platform,provides quick access to instructional materials and interactive courses",
+      "An easy-to-use platform that provides quick access to instructional materials and interactive courses",
     technologies: [
       "Node.js",
       "Express.js",
