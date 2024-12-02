@@ -3,26 +3,43 @@ import { Project } from '../types';
 export const projects: Project[] = [
   {
     id: 1,
-    title: "API Gateway Service",
-    description: "A high-performance API Gateway built with Node.js and Express, handling rate limiting, caching, and authentication.",
-    technologies: ["Node.js", "Express", "Redis", "JWT"],
-    githubUrl: "https://github.com/yourusername/api-gateway",
-    liveUrl: "https://api-gateway-demo.herokuapp.com"
+    title: "egTeam an ed-tech platform",
+    description:
+      "An easy-to-use platform that provided quick access to instructional materials and interactive courses built with Node.js and Express.js, handling authentication,authorization and payment.",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "React",
+      "Tailwind CSS",
+    ],
+    githubUrl: "https://github.com/Saptadeep717/egTeamBackend",
+    liveUrl: "https://eg-team.vercel.app/",
   },
   {
     id: 2,
-    title: "Microservices Architecture",
-    description: "A scalable microservices system using Docker and Kubernetes for container orchestration.",
-    technologies: ["Docker", "Kubernetes", "gRPC", "MongoDB"],
-    githubUrl: "https://github.com/yourusername/microservices-arch",
-    liveUrl: "https://micro-services-demo.cloud.com"
+    title: "egDocs a real time text editor",
+    description:
+      "A real-time document collaboration platform with editing tools,allowing multiple users to edit concurrently and view changes in real time",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "MongoDB",
+      "React",
+      "Quill.js",
+    ],
+    githubUrl: "https://github.com/Saptadeep717/eZdocsUpdated",
+    liveUrl: "https://e-zdocs.vercel.app",
   },
   {
     id: 3,
-    title: "Real-time Data Pipeline",
-    description: "Event-driven data pipeline processing millions of events per second using Apache Kafka.",
-    technologies: ["Kafka", "Python", "ElasticSearch", "Kibana"],
-    githubUrl: "https://github.com/yourusername/data-pipeline",
-    liveUrl: "https://data-pipeline-demo.dev"
-  }
+    title: "C++ Application",
+    description:
+      "An user-interactive website that includes several C++ applications and tiny projects based on real world DSA",
+    technologies: ["C++", "HTML", "CSS", "Javascript"],
+    githubUrl: "https://github.com/Saptadeep717/cpp",
+    liveUrl: "https://cpp-projects.pages.dev/",
+  },
 ];
