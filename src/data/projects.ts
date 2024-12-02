@@ -5,8 +5,7 @@ export const projects: Project[] = [
     id: 1,
     title: "egTeam an ed-tech platform",
     description:
-      "An easy-to-use platform that provided quick access to instructional materials and interactive"+ 
-      "courses built with Node.js,Express.js, handling authentication,authorization and payment.",
+      "An easy-to-use platform,provides quick access to instructional materials and interactive courses",
     technologies: [
       "Node.js",
       "Express.js",
@@ -22,8 +21,7 @@ export const projects: Project[] = [
     id: 2,
     title: "egDocs a real time text editor",
     description:
-      "A real-time document collaboration platform with editing tools,allowing multiple users to"+ 
-      "edit concurrently and view changes in real time",
+      "A real-time document collaboration platform with concurrent edit and view real time changes" ,
     technologies: [
       "Node.js",
       "Express.js",
@@ -39,8 +37,7 @@ export const projects: Project[] = [
     id: 3,
     title: "C++ Application",
     description:
-      "An user-interactive website that includes several C++ applications and tiny projects"+ 
-      "based on real world DSA solving",
+      "A website that includes several tiny projects based on real world DSA problems",
     technologies: ["C++", "HTML", "CSS", "Javascript"],
     githubUrl: "https://github.com/Saptadeep717/cpp",
     liveUrl: "https://cpp-projects.pages.dev/",
