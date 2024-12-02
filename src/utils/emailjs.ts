@@ -1,9 +1,9 @@
 import emailjs from '@emailjs/browser';
 
 // Replace these with your actual EmailJS credentials
-const SERVICE_ID = 'service_htkw5hg';
-const TEMPLATE_ID = 'template_f1qjo4c';
-const PUBLIC_KEY = 'vTRkbrvYYKGFYnFwl';
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 export const sendEmail = async (data: {
   name: string;
