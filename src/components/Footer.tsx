@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
-
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -14,14 +14,20 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li>
+              {/* <li>
                 <a
                   href="/about"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   About
                 </a>
-              </li>
+              </li> */}
+              <Link
+                to="/about"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                About
+              </Link>
               <li>
                 <a
                   href="/projects"
